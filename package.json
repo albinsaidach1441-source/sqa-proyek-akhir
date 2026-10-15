@@ -1,0 +1,30 @@
+{
+  "name": "sqa-proyek-akhir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albinsaidach1441-source/sqa-proyek-akhir.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/albinsaidach1441-source/sqa-proyek-akhir/issues"
+  },
+  "homepage": "https://github.com/albinsaidach1441-source/sqa-proyek-akhir#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "jest": "^30.5.2"
+  }
+}
